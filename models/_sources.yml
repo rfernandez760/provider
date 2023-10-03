@@ -3,8 +3,8 @@ version: 2
 sources:
   - name: nppes
     description: Raw provider data from NPPES, NUCC, and CMS
-    database: nppes
-    schema: raw_data
+    database: insights_dbt
+    schema: nppes
     tables:
       - name: npi
       - name: nucc_taxonomy

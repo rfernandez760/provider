@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: nppes
     description: Raw provider data from NPPES, NUCC, and CMS
-    database: insights_dbt
+    database: operations
     schema: nppes
     tables:
       - name: npi
